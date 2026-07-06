@@ -1,0 +1,366 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 2150" width="100%" height="100%" style="background-color: #f4f4f4; font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;">
+
+  <g id="capa-exteriores-urbanos">
+    <rect x="250" y="1700" width="620" height="100" fill="#e0e0e0" stroke="#999" stroke-width="2" />
+    <text x="560" y="1760" font-family="sans-serif" font-size="22" font-weight="bold" fill="#666" text-anchor="middle" letter-spacing="2">VEREDA (1.00 M)</text>
+    
+    <rect x="250" y="1800" width="620" height="100" fill="#d4ebd5" stroke="#999" stroke-width="2" />
+    <text x="560" y="1860" font-family="sans-serif" font-size="22" font-weight="bold" fill="#2e7d32" text-anchor="middle" letter-spacing="2">JARDÍN EXTERIOR (1.00 M)</text>
+
+    <line x1="200" y1="1900" x2="920" y2="1900" stroke="#777" stroke-width="3" stroke-dasharray="10,5" />
+  </g>
+
+  <g id="capa-ejes-y-cotas">
+    <g id="ejes-y-guias" stroke="#777" stroke-width="1.5" fill="none">
+      <line x1="250" y1="200" x2="250" y2="40" />
+      <line x1="550" y1="200" x2="550" y2="40" />
+      <line x1="870" y1="200" x2="870" y2="40" />
+      <line x1="250" y1="100" x2="870" y2="100" />
+      <line x1="250" y1="50" x2="870" y2="50" />
+      <line x1="250" y1="1700" x2="250" y2="2080" />
+      <line x1="550" y1="1700" x2="550" y2="2080" />
+      <line x1="630" y1="1700" x2="630" y2="1970" />
+      <line x1="870" y1="1700" x2="870" y2="2080" />
+      <line x1="250" y1="2040" x2="870" y2="2040" />
+      <line x1="250" y1="1990" x2="870" y2="1990" />
+      <line x1="550" y1="1950" x2="870" y2="1950" />
+      <line x1="250" y1="200" x2="80" y2="200" />
+      <line x1="250" y1="650" x2="130" y2="650" />
+      <line x1="250" y1="900" x2="130" y2="900" />
+      <line x1="250" y1="1250" x2="130" y2="1250" />
+      <line x1="250" y1="1700" x2="80" y2="1700" />
+      <line x1="150" y1="200" x2="150" y2="1700" />
+      <line x1="100" y1="200" x2="100" y2="1700" />
+      <line x1="870" y1="200" x2="990" y2="200" />
+      <line x1="870" y1="750" x2="940" y2="750" />
+      <line x1="870" y1="1550" x2="940" y2="1550" />
+      <line x1="870" y1="1700" x2="990" y2="1700" />
+      <line x1="920" y1="200" x2="920" y2="1700" />
+      <line x1="970" y1="200" x2="970" y2="1700" />
+    </g>
+
+    <path id="marcas-cotas" d="
+      M 245 45 L 255 55 M 545 45 L 555 55 M 865 45 L 875 55
+      M 245 95 L 255 105 M 865 95 L 875 105
+      M 245 2035 L 255 2045 M 865 2035 L 875 2045
+      M 245 1985 L 255 1995 M 545 1985 L 555 1995 M 865 1985 L 875 1995
+      M 545 1945 L 555 1955 M 625 1945 L 635 1955 M 865 1945 L 875 1955
+      M 145 195 L 155 205 M 145 645 L 155 655 M 145 895 L 155 905 M 145 1245 L 155 1255 M 145 1695 L 155 1705
+      M 95 195 L 105 205 M 95 1695 L 105 1705
+      M 915 195 L 925 205 M 915 745 L 925 755 M 915 1545 L 925 1555 M 915 1695 L 925 1705
+      M 965 195 L 975 205 M 965 1695 L 975 1705
+    " stroke="#555" stroke-width="2" fill="none"/>
+
+    <g id="textos-cotas" fill="#333" font-family="monospace" font-size="20" text-anchor="middle">
+      <text x="560" y="35">6.20 M</text>
+      <text x="400" y="85">3.00</text>
+      <text x="710" y="85">3.20</text>
+      <text x="560" y="2025">6.20m</text>
+      <text x="400" y="1975">3.00</text>
+      <text x="710" y="1975">3.20</text>
+      <text x="590" y="1935">0.80</text>
+      <text x="750" y="1935">2.40</text>
+      <text x="80" y="950" transform="rotate(-90 80 950)">15.00 M</text>
+      <text x="130" y="425" font-size="18">4.50</text>
+      <text x="130" y="775" font-size="18">2.50</text>
+      <text x="130" y="1075" font-size="18">3.50</text>
+      <text x="130" y="1475" font-size="18">4.50</text>
+      <text x="985" y="950" transform="rotate(-90 985 950)">15.00 M</text>
+      <text x="935" y="475" font-size="18">5.50</text>
+      <text x="935" y="1150" font-size="18">8.00</text>
+      <text x="935" y="1635" font-size="18">1.50</text>
+      <text x="450" y="890" font-size="16" fill="#444">3.00</text>
+      <text x="590" y="740" font-size="16" fill="#444">0.80</text>
+      <text x="590" y="1190" font-size="16" fill="#444">2.50</text>
+    </g>
+
+    <g id="letras-ejes" fill="#000" font-family="sans-serif" font-size="45" font-weight="900">
+      <text x="220" y="1945" text-anchor="end">A</text>
+      <text x="220" y="180" text-anchor="end">B</text>
+      <text x="890" y="1945" text-anchor="start">C</text>
+      <text x="890" y="180" text-anchor="start">D</text>
+    </g>
+  </g>
+
+  <g id="capa-muros" stroke="#666" stroke-width="6" stroke-linecap="square" fill="none">
+    <path d="M 250 200 L 870 200" />
+    <path d="M 250 200 L 250 1700" />
+    <path d="M 870 200 L 870 1550" />
+    <path d="M 630 1550 L 870 1550" />
+    <path d="M 550 200 L 550 570" />  
+    <path d="M 550 650 L 550 820" />  
+    <path d="M 550 900 L 550 1170" /> 
+    <path d="M 550 1330 L 550 1700" /> 
+    <path d="M 250 650 L 550 650" />
+    <path d="M 250 900 L 550 900" />
+    <path d="M 250 1250 L 550 1250" />
+    <path d="M 630 350 L 870 350" /> 
+    <path d="M 630 750 L 870 750" />
+  </g>
+
+  <g id="capa-arquitectura">
+    <g id="ventanas" fill="#f4f4f4">
+      <rect x="700" y="1545" width="100" height="10" />
+      <line x1="700" y1="1550" x2="800" y2="1550" stroke="#777" stroke-width="2" />
+      <rect x="245" y="700" width="10" height="80" />
+      <line x1="250" y1="700" x2="250" y2="780" stroke="#777" stroke-width="2" />
+      <rect x="545" y="260" width="10" height="80" />
+      <line x1="550" y1="260" x2="550" y2="340" stroke="#777" stroke-width="2" />
+    </g>
+
+    <g id="puertas" stroke="#444" stroke-width="2" fill="none">
+      <line x1="550" y1="1550" x2="550" y2="1470" />
+      <path d="M 630 1550 A 80 80 0 0 0 550 1470" stroke-dasharray="6,4" />
+      <line x1="550" y1="650" x2="470" y2="650" />
+      <path d="M 550 570 A 80 80 0 0 0 470 650" stroke-dasharray="6,4" />
+      <line x1="550" y1="900" x2="470" y2="900" />
+      <path d="M 550 820 A 80 80 0 0 0 470 900" stroke-dasharray="6,4" />
+      <line x1="550" y1="1250" x2="470" y2="1250" />
+      <path d="M 550 1170 A 80 80 0 0 0 470 1250" stroke-dasharray="6,4" />
+      <line x1="550" y1="1250" x2="470" y2="1250" />
+      <path d="M 470 1250 A 80 80 0 0 0 550 1330" stroke-dasharray="6,4" />
+      <line x1="250" y1="1700" x2="250" y2="1550" />
+      <path d="M 400 1700 A 150 150 0 0 1 250 1550" stroke-dasharray="6,4" />
+      <line x1="550" y1="1700" x2="550" y2="1550" />
+      <path d="M 400 1700 A 150 150 0 0 0 550 1550" stroke-dasharray="6,4" />
+    </g>
+  </g>
+
+  <g id="capa-mobiliario">
+    <g id="mobiliario" stroke="#555" stroke-width="2" fill="none">
+      <rect x="630" y="1550" width="240" height="150" fill="#e8f5e9" stroke="none" />
+      <circle cx="680" cy="1625" r="30" fill="#a5d6a7" stroke="#81c784" stroke-width="2"/>
+      <circle cx="750" cy="1600" r="25" fill="#a5d6a7" stroke="#81c784" stroke-width="2"/>
+      <circle cx="820" cy="1640" r="35" fill="#a5d6a7" stroke="#81c784" stroke-width="2"/>
+      <rect x="260" y="300" width="130" height="170" rx="5" />
+      <rect x="270" y="315" width="50" height="30" rx="3" />
+      <rect x="330" y="315" width="50" height="30" rx="3" />
+      <line x1="260" y1="360" x2="390" y2="360" />
+      <rect x="260" y="1000" width="130" height="170" rx="5" />
+      <rect x="270" y="1015" width="50" height="30" rx="3" />
+      <rect x="330" y="1015" width="50" height="30" rx="3" />
+      <line x1="260" y1="1060" x2="390" y2="1060" />
+      <rect x="260" y="660" width="70" height="70" />
+      <line x1="260" y1="660" x2="330" y2="730" stroke-width="1" />
+      <line x1="330" y1="660" x2="260" y2="730" stroke-width="1" />
+      <rect x="520" y="680" width="20" height="40" />
+      <ellipse cx="495" cy="700" rx="25" ry="15" />
+      <rect x="350" y="850" width="60" height="40" />
+      <circle cx="380" cy="870" r="12" />
+      <rect x="635" y="200" width="230" height="65" fill="#fcfcfc" />
+      <line x1="635" y1="265" x2="865" y2="265" /> 
+      <line x1="655" y1="200" x2="655" y2="265" />
+      <line x1="675" y1="200" x2="675" y2="265" />
+      <line x1="695" y1="200" x2="695" y2="265" />
+      <line x1="715" y1="200" x2="715" y2="265" />
+      <line x1="735" y1="200" x2="735" y2="265" />
+      <line x1="755" y1="200" x2="755" y2="265" />
+      <line x1="775" y1="200" x2="775" y2="265" />
+      <line x1="795" y1="200" x2="795" y2="265" />
+      <line x1="815" y1="200" x2="815" y2="265" />
+      <line x1="835" y1="200" x2="835" y2="265" />
+      <line x1="855" y1="200" x2="855" y2="265" />
+      <line x1="645" y1="232" x2="845" y2="232" stroke-dasharray="4,4" />
+      <polygon points="845,232 835,226 835,238" fill="#555" stroke="none" />
+      <rect x="710" y="305" width="80" height="42" rx="4" />
+      <rect x="715" y="310" width="32" height="32" rx="2" />
+      <rect x="753" y="310" width="32" height="32" rx="2" />
+      <line x1="753" y1="316" x2="785" y2="316" stroke-width="1" />
+      <line x1="753" y1="322" x2="785" y2="322" stroke-width="1" />
+      <line x1="753" y1="328" x2="785" y2="328" stroke-width="1" />
+      <line x1="753" y1="334" x2="785" y2="334" stroke-width="1" />
+      <circle cx="731" cy="326" r="3" /> 
+      <circle cx="731" cy="315" r="2" fill="#555" /> 
+      <rect x="815" y="305" width="45" height="42" rx="3" />
+      <circle cx="837.5" cy="328" r="12" stroke-width="1.5" />
+      <circle cx="837.5" cy="328" r="8" stroke-width="0.5" />
+      <rect x="820" y="310" width="35" height="5" rx="1" stroke-width="1" /> 
+      <rect x="790" y="690" width="70" height="60" rx="3" />
+      <circle cx="810" cy="705" r="8" stroke-width="1.5" />
+      <circle cx="840" cy="705" r="8" stroke-width="1.5" />
+      <circle cx="810" cy="735" r="8" stroke-width="1.5" />
+      <circle cx="840" cy="735" r="8" stroke-width="1.5" />
+      <rect x="640" y="700" width="80" height="50" rx="3" />
+      <rect x="645" y="705" width="32" height="35" rx="2" />
+      <rect x="683" y="705" width="32" height="35" rx="2" />
+      <circle cx="661" cy="725" r="2.5" />
+      <circle cx="699" cy="725" r="2.5" />
+      <circle cx="680" cy="745" r="3" fill="#555" /> 
+      <rect x="800" y="850" width="60" height="180" rx="5" />
+      <rect x="660" y="970" width="140" height="60" rx="5" />
+      <rect x="680" y="880" width="90" height="50" />
+      <rect x="330" y="1320" width="140" height="280" rx="35" />
+      <path d="M 340 1390 Q 400 1370 460 1390 L 450 1440 Q 400 1430 350 1440 Z" stroke-width="1" />
+      <path d="M 340 1540 Q 400 1560 460 1540 L 450 1500 Q 400 1510 350 1500 Z" stroke-width="1" />
+      <rect x="500" y="1300" width="50" height="50" />
+      <line x1="500" y1="1300" x2="550" y2="1350" stroke-width="1" />
+      <line x1="550" y1="1300" x2="500" y2="1350" stroke-width="1" />
+    </g>
+  </g>
+
+  <g id="capa-instalaciones-electricas">
+    
+    <g id="acometidas-potencia">
+      <path d="M 645 1685 L 645 1550 L 636 1550 L 636 350" stroke="#c0392b" stroke-width="4" fill="none" />
+      <text x="645" y="1705" fill="#c0392b" font-weight="bold" font-size="14" text-anchor="middle">ACOMETIDA CALLE</text>
+      
+      <path d="M 870 100 L 870 250 Q 870 310 660 310" stroke="#d35400" stroke-width="4" stroke-dasharray="8,4" fill="none" />
+      <text x="860" y="125" fill="#d35400" font-weight="bold" font-size="14" text-anchor="end">ALIM. ALTERNATIVO</text>
+    </g>
+
+    <g id="tableros">
+      <rect x="630" y="310" width="12" height="40" fill="#34495e" stroke="#2c3e50" stroke-width="2" />
+      <text x="600" y="335" font-size="16" font-weight="bold" fill="#2c3e50">TG</text>
+      
+      <rect x="645" y="310" width="15" height="40" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2" />
+      <text x="665" y="335" font-size="16" font-weight="900" fill="#2c3e50">TG1</text>
+      
+      <rect x="535" y="285" width="15" height="30" fill="#34495e" stroke="#2c3e50" stroke-width="2" />
+      <text x="530" y="275" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="end">TG2</text>
+    </g>
+
+    <g id="circuito-verde">
+      <path d="M 636 330 Q 640 750 750 750" stroke="#27ae60" stroke-width="2.5" stroke-dasharray="6,4" fill="none" opacity="0.8"/>
+      
+      <path d="M 750 750 Q 870 770 870 1000" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 750 750 Q 870 850 870 1200" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 750 750 Q 850 1100 870 1400" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 640 330 Q 750 300 870 325" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 640 330 Q 750 330 750 350" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 750 350 Q 830 500 830 750" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 830 750 Q 870 750 870 650" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 870 650 L 870 550" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 870 550 L 870 450" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 870 1400 Q 800 1500 750 1550" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+      <path d="M 750 1550 L 750 1700" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+
+      <g stroke="#27ae60" stroke-width="2" fill="#fff">
+        <circle cx="870" cy="325" r="5"/><text x="850" y="330" fill="#27ae60" stroke="none" text-anchor="end" font-size="16">LAV-1</text>
+        <circle cx="750" cy="350" r="5"/><text x="750" y="325" fill="#27ae60" stroke="none" text-anchor="middle" font-size="16">COC-1</text>
+        <circle cx="830" cy="750" r="5"/><text x="830" y="725" fill="#27ae60" stroke="none" text-anchor="middle" font-size="16">COC-2</text>
+        <circle cx="870" cy="650" r="5"/><text x="850" y="655" fill="#27ae60" stroke="none" text-anchor="end" font-size="16">COC-3</text>
+        <circle cx="870" cy="550" r="5"/><text x="850" y="555" fill="#27ae60" stroke="none" text-anchor="end" font-size="16">COC-4</text>
+        <circle cx="870" cy="450" r="5"/><text x="850" y="455" fill="#27ae60" stroke="none" text-anchor="end" font-size="16">COC-5</text>
+        <circle cx="750" cy="750" r="5"/><text x="750" y="785" fill="#27ae60" stroke="none" text-anchor="middle" font-size="16">SAL-1</text>
+        <circle cx="870" cy="1000" r="5"/><text x="850" y="1005" fill="#27ae60" stroke="none" text-anchor="end" font-size="16">SAL-2</text>
+        <circle cx="870" cy="1200" r="5"/><text x="850" y="1205" fill="#27ae60" stroke="none" text-anchor="end" font-size="16">SAL-3</text>
+        <circle cx="870" cy="1400" r="5"/><text x="850" y="1405" fill="#27ae60" stroke="none" text-anchor="end" font-size="16">SAL-4</text>
+        <circle cx="750" cy="1550" r="5"/><text x="750" y="1525" fill="#27ae60" stroke="none" text-anchor="middle" font-size="16">SAL-5</text>
+        <circle cx="750" cy="1700" r="5"/><text x="750" y="1735" fill="#27ae60" stroke="none" text-anchor="middle" font-size="16">EXT-1</text>
+      </g>
+    </g>
+
+    <g id="circuito-azul">
+      <g stroke="#2980b9" stroke-width="2" fill="none" stroke-dasharray="6,4">
+        <path d="M 542 315 Q 520 380 545 445" /> 
+        <path d="M 545 445 Q 400 480 255 455" /> 
+        <path d="M 255 455 Q 320 580 400 650" /> 
+        <path d="M 400 650 C 400 550, 580 550, 580 680 Q 580 765 545 765" /> 
+        <path d="M 545 765 Q 460 810 360 900" /> 
+        <path d="M 360 900 Q 450 1000 550 1130" /> 
+        <path d="M 550 1130 Q 400 1100 250 1150" /> 
+        <path d="M 250 1150 Q 350 1220 500 1250" /> 
+        <path d="M 500 1250 Q 525 1360 550 1460" /> 
+        <path d="M 550 1460 L 250 1460" /> 
+        <path d="M 630 330 L 590 330 L 590 780 L 550 780 Q 430 830 310 900" stroke="#e74c3c" />
+      </g>
+
+      <g stroke="#2980b9" stroke-width="2" fill="#fff">
+        <circle cx="550" cy="445" r="5"/><text x="530" y="450" fill="#2980b9" stroke="none" text-anchor="end" font-size="16">C3-1</text>
+        <circle cx="250" cy="455" r="5"/><text x="270" y="460" fill="#2980b9" stroke="none" font-size="16">C3-2</text>
+        <circle cx="400" cy="650" r="5"/><text x="400" y="625" fill="#2980b9" stroke="none" text-anchor="middle" font-size="14">C3-3</text>
+        <circle cx="550" cy="765" r="5"/><text x="530" y="770" fill="#2980b9" stroke="none" text-anchor="end" font-size="16">BAÑ-1</text>
+        <circle cx="360" cy="900" r="5"/><text x="360" y="875" fill="#2980b9" stroke="none" text-anchor="middle" font-size="14">BAÑ-2</text>
+        <line x1="360" y1="900" x2="360" y2="915"/><text x="360" y="930" fill="#2980b9" stroke="none" text-anchor="middle" font-size="14">C2-1</text>
+        <circle cx="550" cy="1130" r="5"/><text x="530" y="1135" fill="#2980b9" stroke="none" text-anchor="end" font-size="16">C2-2</text>
+        <circle cx="250" cy="1150" r="5"/><text x="270" y="1155" fill="#2980b9" stroke="none" font-size="16">C2-3</text>
+        <circle cx="500" cy="1250" r="5"/><text x="500" y="1225" fill="#2980b9" stroke="none" text-anchor="middle" font-size="14">C2-4</text>
+        <line x1="500" y1="1250" x2="500" y2="1265"/><text x="500" y="1280" fill="#2980b9" stroke="none" text-anchor="middle" font-size="14">COCH-1</text>
+        <circle cx="550" cy="1460" r="5"/><text x="530" y="1465" fill="#2980b9" stroke="none" text-anchor="end" font-size="16">COCH-2</text>
+        <circle cx="250" cy="1460" r="5"/><text x="270" y="1465" fill="#2980b9" stroke="none" font-size="16">COCH-3</text>
+        <circle cx="310" cy="900" r="5" stroke="#e74c3c"/><text x="310" y="875" fill="#e74c3c" stroke="none" text-anchor="middle" font-size="14">TL</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="capa-textos-y-zonas">
+    <g id="nomenclatura-ambientes" fill="#000" font-size="28" font-weight="bold">
+      <text x="400" y="450" transform="rotate(-45 400 450)" text-anchor="middle">Cuarto "03"</text>
+      <text x="400" y="800" text-anchor="middle">Baño</text>
+      <text x="400" y="1100" transform="rotate(-45 400 1100)" text-anchor="middle">Cuarto "02"</text>
+      <text x="400" y="1460" text-anchor="middle" font-size="32">Cochera</text>
+      <text x="750" y="285" text-anchor="middle">Lavandería</text> 
+      <text x="750" y="550" text-anchor="middle">Cocina</text>
+      <text x="750" y="1150" font-size="36" text-anchor="middle">Sala</text>
+      <text x="750" y="1635" font-size="24" text-anchor="middle" font-weight="bold" fill="#2e7d32">Jardín</text>
+    </g>
+
+    <g id="esquinas-ambientes" fill="#2980b9" font-family="sans-serif" font-size="18" font-style="italic" font-weight="bold">
+      <text x="265" y="235">A</text>
+      <text x="530" y="235">B</text>
+      <text x="530" y="635">C</text>
+      <text x="265" y="635">D</text>
+      <text x="645" y="285">A</text>
+      <text x="850" y="285">B</text>
+      <text x="850" y="335">C</text>
+      <text x="645" y="335">D</text>
+      <text x="645" y="385">A</text>
+      <text x="850" y="385">B</text>
+      <text x="850" y="735">C</text>
+      <text x="645" y="735">D</text>
+      <text x="265" y="685">A</text>
+      <text x="530" y="685">B</text>
+      <text x="530" y="885">C</text>
+      <text x="265" y="885">D</text>
+      <text x="265" y="935">A</text>
+      <text x="530" y="935">B</text>
+      <text x="530" y="1235">C</text>
+      <text x="265" y="1235">D</text>
+      <text x="265" y="1285">A</text>
+      <text x="530" y="1285">B</text>
+      <text x="530" y="1685">C</text>
+      <text x="265" y="1685">D</text>
+      <text x="645" y="785">A</text>
+      <text x="850" y="785">B</text>
+      <text x="850" y="1535">C</text>
+      <text x="565" y="1535">D</text>
+      <text x="645" y="1585">A</text>
+      <text x="850" y="1585">B</text>
+      <text x="850" y="1685">C</text>
+      <text x="645" y="1685">D</text>
+    </g>
+
+    <g id="zonas-estrategicas" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">
+      <circle cx="480" cy="280" r="22" fill="#e74c3c" />
+      <text x="480" y="287" fill="#fff">E</text>
+      <circle cx="490" cy="710" r="22" fill="#3498db" />
+      <text x="490" y="717" fill="#fff">F</text>
+      <circle cx="480" cy="980" r="22" fill="#e74c3c" />
+      <text x="480" y="987" fill="#fff">G</text>
+      <circle cx="300" cy="1620" r="22" fill="#95a5a6" />
+      <text x="300" y="1627" fill="#fff">H</text>
+      <circle cx="670" cy="300" r="22" fill="#f1c40f" />
+      <text x="670" y="307" fill="#fff">I</text>
+      <circle cx="690" cy="430" r="22" fill="#f1c40f" />
+      <text x="690" y="437" fill="#fff">J</text>
+      <circle cx="810" cy="1480" r="22" fill="#2ecc71" />
+      <text x="810" y="1487" fill="#fff">K</text>
+      <circle cx="670" cy="1650" r="22" fill="#27ae60" />
+      <text x="670" y="1657" fill="#fff">L</text>
+    </g>
+
+    <g id="leyenda-zonas" transform="translate(200, 2070)">
+      <rect x="0" y="0" width="720" height="70" fill="#fff" stroke="#777" stroke-width="2" rx="5"/>
+      <text x="20" y="27" font-family="sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="start">ZONIFICACIÓN ARQUITECTÓNICA</text>
+      <text x="20" y="52" font-family="sans-serif" font-size="14" fill="#333" text-anchor="start">
+        <tspan font-weight="bold" fill="#e74c3c">E, G:</tspan> Área Íntima | 
+        <tspan font-weight="bold" fill="#3498db">F:</tspan> Húmeda | 
+        <tspan font-weight="bold" fill="#95a5a6">H:</tspan> Acceso | 
+        <tspan font-weight="bold" fill="#f1c40f">I, J:</tspan> Servicio | 
+        <tspan font-weight="bold" fill="#2ecc71">K:</tspan> Social |
+        <tspan font-weight="bold" fill="#27ae60">L:</tspan> Libre/Jardín
+      </text>
+    </g>
+  </g>
+
+</svg>
