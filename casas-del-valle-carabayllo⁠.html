@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Casa - Condominio Club Casas del Valle, Carabayllo</title>
+    <style>
+        /* Estilos básicos para dar formato a la Landing Page */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0 0 1rem 0;
+            font-size: 2.5rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #27ae60;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        section {
+            padding: 3rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .bg-light {
+            background-color: #f9f9f9;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .feature-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .svg-container {
+            background: #e0e0e0;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            margin-top: 15px;
+            color: #666;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 500px;
+            margin: auto;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+        button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tu nueva vida en el Condominio Club Casas del Valle</h1>
+        <p>Exclusividad, seguridad y confort en la mejor zona de Carabayllo.</p>
+        <a href="#contacto" class="btn">Agendar una visita</a>
+    </header>
+
+    <section id="galeria">
+        <h2>El Entorno y Áreas Comunes</h2>
+        <p>Vive rodeado de áreas verdes, con acceso a piscina, zonas de parrilla y vigilancia las 24 horas.</p>
+        <div class="grid-2">
+            <div class="feature-box">
+                <h3>[Imagen de la Fachada]</h3>
+                <p>Diseño exterior moderno y estacionamiento privado.</p>
+            </div>
+            <div class="feature-box">
+                <h3>[Imagen de la Piscina/Club]</h3>
+                <p>Áreas de recreación exclusivas para residentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="distribucion" class="bg-light">
+        <h2>Distribución y Solidez Estructural</h2>
+        <p>El diseño de la propiedad prioriza la privacidad y la amplitud espacial, con una construcción pensada para perdurar.</p>
+        
+        <ul>
+            <li><strong>Habitación C:</strong> Cuenta con una puerta independiente, ideal para mantener la privacidad respecto al resto de la casa.</li>
+            <li><strong>Habitación D:</strong> Diseñada con una proporción exacta de 4 metros visuales y reales, garantizando un espacio amplio y armónico.</li>
+            <li><strong>Construcción Sólida:</strong> Paredes perimetrales construidas asegurando que el ladrillo esté integrado en el medio del vaciado de cemento de la base, no directamente sobre la tierra, proporcionando máxima resistencia estructural.</li>
+        </ul>
+
+        <div class="svg-container">
+            [Espacio reservado para render 3D o plano interactivo SVG]
+        </div>
+    </section>
+
+    <section id="ficha">
+        <h2>Detalles de la Propiedad</h2>
+        <div class="grid-2">
+            <ul style="line-height: 2;">
+                <li><strong>Área Total:</strong> 120 m²</li>
+                <li><strong>Área Construida:</strong> 100 m²</li>
+                <li><strong>Habitaciones:</strong> 3</li>
+                <li><strong>Baños:</strong> 2 completos</li>
+            </ul>
+            <ul style="line-height: 2;">
+                <li><strong>Precio:</strong> $XX,XXX USD</li>
+                <li><strong>Mantenimiento:</strong> S/ XXX</li>
+                <li><strong>Documentación:</strong> Independizada y en regla</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto" class="bg-light">
+        <h2 style="text-align: center;">¿Interesado? Hablemos</h2>
+        <form action="#" method="POST">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="tel" name="telefono" placeholder="Tu Teléfono (WhatsApp)" required>
+            <textarea name="mensaje" rows="4" placeholder="Hola, quiero más información sobre la casa en Casas del Valle..." required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Propiedades Carabayllo. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
